@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  letter-spacing: 0.6px;
+  font-family: 'Montserrat', system-ui;
+}
+button {
+  cursor: pointer;
+}
+html {
+  font-size: 10px;
+}
+.container {
+  max-width: 144em;
+  margin: 0 auto;
+}
+
+header {
+  padding: 3em;
+}
+header > h1 {
+  text-align: center;
+  color: hotpink;
+  font-size: 6em;
+}
+
+#cards-wrapper>.container{
+  display: flex;
+  padding: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  gap: 3.6em;
+}
+.card{
+  border: 1px solid gray;
+  overflow: hidden;
+  width: 100%;
+  max-width: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2em;
+  gap: 1.6em;
+}
+.card>img{
+  width: 100%;
+  height: 30em;
+  object-fit: cover;
+}
+.card>h2{
+  font-size: 2.2em;
+}
+.card>p{
+  padding: 0 1em;
+  font-size: 2.2em;
+  color: gray;
+}
+.card>button{
+  width: 100%;
+  padding: .5em;
+  background: hotpink;
+  color: #fff;
+  font-size: 2.2em;
+}
